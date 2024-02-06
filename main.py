@@ -1,9 +1,9 @@
 from turtle import Screen
 from time import sleep
-from snake import Snake
-from food import Food
-from score import Scoreboard
-from wall import Wall
+from components.snake import Snake
+from components.food import Food
+from components.score import Scoreboard
+from components.wall import Wall
 
 
 def off():
